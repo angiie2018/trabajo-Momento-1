@@ -1,0 +1,92 @@
+
+
+body
+{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(..//MULTIMEDIA/IMAGENES/tattoo2.jpg);
+    width: 100%;
+    height: 100vh;
+}
+
+header 
+{
+    margin: auto;
+    width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+
+ul, ol
+{
+    list-style: none;
+}
+
+nav
+{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding-top: 20px;
+padding-left: 5%;
+padding-right: 5%;
+font-weight: bold;
+}
+
+h1
+{
+    color:red;
+    font-size: 45px;
+}
+nav  li a
+{
+    background-color:rgba(177, 39, 39, 0.233);
+    color: #f80404;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+
+
+nav li a:hover 
+{
+    background-color: #434343;
+}
+
+nav li ul
+{
+     display: none;
+     position: absolute;
+     min-width: 140px;
+     
+}
+
+ul li
+{
+    display: block;
+}
+
+nav li:hover > ul
+{
+   display: block; 
+}
+
+.contactanos
+{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(..//MULTIMEDIA/IMAGENES/tattoo2.jpg);
+    width: 100%;
+}
+
+p
+{
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;   
+}
+
+
+
+
+
+
+
+
